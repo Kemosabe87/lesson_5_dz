@@ -1,0 +1,112 @@
+/* --------------------Підключення шрифту - Larsseit------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Edu+TAS+Beginner:regular,500,600,700&display=swap");
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	height: 100%;
+	background: rgb(186, 122, 20);
+}
+
+header {
+	background-image: url("../img/дом-дракона-сериал-новости.jpg");
+	height: 150px;
+	padding-top: 20px;
+}
+
+.header-body h1 {
+	text-align: end;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.header-body > h1 > span {
+	color: #000;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Qwitcher+Grypen";
+	font-weight: 900;
+}
+h2 span {
+	color: #000;
+	font-size: 25px;
+	text-align: right;
+}
+
+main {
+	background: rgb(79, 73, 73);
+}
+.main-image {
+	padding: 50px 10px;
+	font-size: 30px;
+	font-family: "Larsseit";
+	font-weight: 700;
+}
+.main-image > h2 {
+	padding: 20px;
+}
+.main-text span {
+	color: yellow;
+}
+.main-text p {
+	font-size: 20px;
+	padding: 10px;
+	line-height: 1.2;
+	text-indent: 20px;
+	/* white-space: nowrap; */
+	white-space: normal;
+	word-spacing: 5px;
+	font-family: "Edu+TAS+Beginner", serif;
+	font-weight: 700;
+}
+.main-text span {
+	font-size: 25px;
+}
+h2 {
+	color: yellow;
+	padding: 10px;
+	text-shadow: 2px 2px 5px #000;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	background: #000;
+	box-sizing: border-box;
+}
+.footer-text {
+	color: #fff;
+	font-size: 10px;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 16px;
+	font-family: "Larsseit";
+	font-weight: 400;
+}
+.footer-icon {
+	padding-top: 20px;
+}
